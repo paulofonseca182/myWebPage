@@ -54,7 +54,7 @@ body {
   src: url('./assets/public/font/Inter-Light.ttf');
 }
 @font-face {
-  font-family: 'Inter-Thina';
+  font-family: 'Inter-Thin';
   font-style: normal;
   font-weight: 100;
   src: url('./assets/public/font/Inter-Thin.ttf');
