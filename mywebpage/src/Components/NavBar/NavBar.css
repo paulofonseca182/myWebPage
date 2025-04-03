@@ -1,0 +1,31 @@
+
+
+.navigation-bar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding: 0 100px;
+  background-color: #5C6047;
+}
+
+.navigation-bar {
+  width: 870px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.avatar {
+  width: 90px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: Inter-Thina;
+  font-size: 24px;
+}
+
+nav a:hover {
+  color: #0E3152;
+}
