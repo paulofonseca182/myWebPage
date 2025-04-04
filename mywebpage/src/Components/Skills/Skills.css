@@ -1,0 +1,44 @@
+.skills-container {
+    margin: 0 100px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid #5C6047;
+    padding-bottom: 50px;
+}
+
+.skills-title {
+    font-family: Inter-Light;
+    font-size: 48px;
+    color: #0E3152;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.skills-subcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.skills {
+    background-color: #5C604790;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    box-shadow: inset -7px -7px 7px 5px #5C604780;
+}
+
+.skillsOne {
+    font-family: Inter-Bold;
+    font-size: 48px;
+    color: #0E3152;
+}
+
+.skillsTwo {
+    font-family: Inter-ExtraLigh;
+    font-size: 48px;
+    color: #0E3152;
+    
+}
+

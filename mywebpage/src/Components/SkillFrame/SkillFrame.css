@@ -1,0 +1,83 @@
+.skillsFrame-container {
+    width: 48%;
+    background-color: #5C604740;
+    border-radius: 15px;
+    box-shadow: inset -7px -7px 7px 10px #5C604780;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.skill-frame {
+    padding: 0 50px;
+}
+
+.skill-title {
+    font-family: Inter-Regular;
+    font-size: 20px;
+    color: #0E3152;
+    margin-top: 30px;
+    background-color: #FFFFFF95;
+    border-radius: 6px;
+    padding-left: 10px;
+    box-shadow: inset -2px -2px 2px 1px #5C604780;
+    animation: lights 5s 750ms linear infinite;
+    
+}
+
+.skill-text {
+    font-family: Inter-Light;
+    font-size: 16px;
+    color: #0E3152;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+@keyframes lights {
+    0% {
+        color: #0E3152;
+        text-shadow:
+          0 0 0.8em rgba(92, 96, 71, 0.16),  /* Verde oliva mais suave */
+          0 0 0.1em rgba(92, 96, 71, 0.24),
+          -0.8em -0.1em 0.4em rgba(14, 49, 82, 0),  /* Azul escuro */
+          0.8em 0.1em 0.4em rgba(92, 96, 71, 0);
+      }
+      
+      25% { 
+        color: #5C6047;
+        text-shadow:
+          0 0 0.8em rgba(14, 49, 82, 0.4),
+          0 0 0.1em rgba(14, 49, 82, 0.4),
+          -0.4em -0.1em 0.2em rgba(92, 96, 71, 0.16),
+          0.4em 0.1em 0.2em rgba(14, 49, 82, 0.32);
+      }
+      
+      50% { 
+        color: #0E3152;
+        text-shadow:
+          0 0 0.8em rgba(92, 96, 71, 0.4),
+          0 0 0.1em rgba(92, 96, 71, 0.4),
+          -0.2em -0.1em 0.1em rgba(14, 49, 82, 0.16),
+          0.2em 0.1em 0.1em rgba(92, 96, 71, 0.32);
+      }
+      
+      75% {
+        color: #5C6047;
+        text-shadow:
+          0 0 0.8em rgba(14, 49, 82, 0.4),
+          0 0 0.1em rgba(14, 49, 82, 0.4),
+          0.4em -0.1em 0.2em rgba(92, 96, 71, 0.16),
+          -0.4em 0.1em 0.2em rgba(14, 49, 82, 0.32);
+      }
+      
+      100% {
+        color: #0E3152;
+        text-shadow:
+          0 0 0.8em rgba(92, 96, 71, 0.16),
+          0 0 0.1em rgba(92, 96, 71, 0.24),
+          0.8em -0.1em 0.4em rgba(14, 49, 82, 0),
+          -0.8em 0.1em 0.4em rgba(92, 96, 71, 0);
+      }
+}
