@@ -4,6 +4,8 @@ import Header from './Components/Header/Header.jsx'
 import NavBar from './Components/NavBar/NavBar.jsx'
 import React from 'react'
 import Skills from './Components/Skills/Skills.jsx'
+import Experience from './Components/Experience/Experience.jsx'
+import Training from './Components/Training/Training.jsx'
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Header />
       <About />
       <Skills />
+      <Experience />
+      <Training />
     </div>
   )
 }

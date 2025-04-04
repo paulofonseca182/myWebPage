@@ -1,7 +1,7 @@
 import React from 'react'
 import './Skills.css'
 import SkillFrame from '../SkillFrame/SkillFrame'
-import skiillsData from './skillsData.js' // Importando os dados de habilidades
+import skiillsData from '../../Data/skillsData'
 
 
 function Skills() {

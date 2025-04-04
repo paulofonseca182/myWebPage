@@ -1,0 +1,62 @@
+.experience-container {
+    margin-top: 30px;
+    padding-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-bottom: 2px solid #5C6047;
+}
+
+.experience-title {
+    font-family: Inter-Light;
+    font-size: 48px;
+    color: #0E3152;
+    margin-bottom: -80px;
+}
+
+.experience-container-data {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.experience-data {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+
+.experience-item-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.experience-company {
+    font-family: Inter-Medium;
+    font-size: 26px;
+    color: #0E3152;
+}
+
+.experience-position {
+    font-family: Inter-Light;
+    font-size: 20px;
+    color: #0E3152;
+    margin-top: -12px;
+}
+
+.experience-text {
+    color: #0E3152;
+    font-family: Inter-Light;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    margin-top: -20px;
+}
+
+.experience-small-image {
+    width: 60px;
+    margin-right: 20px;
+}

@@ -9,11 +9,11 @@ function NavBar() {
       <nav className='navigation-bar'>
         <a href="#about">Sobre</a>
         <a href="#skills">Habilidades</a>
-        <a href="experience">Experiencia</a>
-        <a href="projects">Projetos</a>
-        <a href="training">Formação</a>
-        <a href="certificates">Certificados</a>
-        <a href="contact">Contato</a>
+        <a href="#experience">Experiência</a>
+        <a href="#projects">Projetos</a>
+        <a href="#training">Formação</a>
+        <a href="#certificates">Certificados</a>
+        <a href="#contact">Contato</a>
       </nav>
     </div>
   );
