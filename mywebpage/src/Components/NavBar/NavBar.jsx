@@ -7,7 +7,7 @@ function NavBar() {
     <div className='navigation-bar-container'>
       <img className='avatar' src={avatar} alt="" />
       <nav className='navigation-bar'>
-        <a href="about ">Sobre</a>
+        <a href="#about">Sobre</a>
         <a href="skills">Habilidades</a>
         <a href="experience">Experiencia</a>
         <a href="projects">Projetos</a>
