@@ -10,7 +10,7 @@
     font-family: Inter-Light;
     font-size: 48px;
     color: #0E3152;
-    margin-bottom: -80px;
+    margin-bottom: -20px;
 }
 
 .experience-container-data {
@@ -59,4 +59,8 @@
 .experience-small-image {
     width: 60px;
     margin-right: 20px;
+}
+
+.image-company {
+    width: 150px;
 }

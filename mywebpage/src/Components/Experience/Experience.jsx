@@ -20,7 +20,7 @@ function Experience() {
                   <p className='experience-position'>{item.position}</p>
                 </div>
               </div>
-              <img src={item.image} alt={item.company} />
+              <img className='image-company' src={item.image} alt={item.company} />
             </div>
             <p className='experience-text'>{item.text}</p>
           </div>
