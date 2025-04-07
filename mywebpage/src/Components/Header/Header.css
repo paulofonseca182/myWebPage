@@ -1,6 +1,6 @@
 .header-container {
     background-color: #0E3152;
-    height: 530px;
+
     padding: 50px 100px;
 }
 
@@ -30,9 +30,42 @@
     line-height: 30px;
     text-align: justify;
 }
+
+@media screen and (max-width: 1200px) {
+    .header-container {
+        background-color: #0E3152;
+        padding: 50px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-name {
+        color: #ffffff;
+        font-family: Inter-Thin;
+        font-size: 42px;
+        margin-left: -4px;
+        line-height: 50px;
+        margin-bottom: -5px;
+    }
+
+    .header-profession {
+        font-size: 22px;
+
+    }
+
+    .header-text p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .header-text {
+        width: 100%;
+        margin-top: 50px;
+    }
+}
+
 @media screen and (min-width: 1600px) {
     .header-container {
         padding: 50px 400px;
     }
-    
 }

@@ -47,13 +47,13 @@ nav a:hover {
   color: #ffffff;
 }
 
-@media (min-width: 1201px) {
+@media screen and (min-width: 1201px) {
   .menu-mobile {
     display: none;
   }
 }
 
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
 
   .navigation-bar-container {
     padding: 0 20px;
@@ -67,9 +67,7 @@ nav a:hover {
   }
 }
 
-
-
-@media (min-width: 2000px) {
+@media screen and (min-width: 2000px) {
   .navigation-bar-container {
     padding: 0 400px;
   }
