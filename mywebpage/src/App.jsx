@@ -7,6 +7,8 @@ import Skills from './Components/Skills/Skills.jsx'
 import Experience from './Components/Experience/Experience.jsx'
 import Training from './Components/Training/Training.jsx'
 import Certificates from './Components/Certificates/Certificates.jsx'
+import Contact from './Components/Contact/Contact.jsx'
+import Teste from './Components/Teste.jsx'
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
       <Experience />
       <Training />
       <Certificates />
+      <Contact />
     </div>
   )
 }

@@ -44,3 +44,15 @@
     color: #0E3152;
     margin-top: -8px;
 }
+
+.training-image {
+    width: 40%;
+}
+
+.training-subcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}

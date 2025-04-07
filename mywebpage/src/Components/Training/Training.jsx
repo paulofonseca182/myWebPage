@@ -1,12 +1,14 @@
 import React from 'react'
 import './Training.css'
 import training from '../../Data/trainingData';
+import Formacao from '../../assets/public/image/formacao.png'
 
 function Training() {
   return (
     <div className="training-container" id="training">
       <p className="training-title">Formação</p>
 
+      <div className='training-subcontainer'>
       <div>
         {training.map((item, index) => (
           <div key={index} className="training-container-data">
@@ -26,6 +28,9 @@ function Training() {
           </div>
         ))}
       </div>
+      <img className='training-image' src={Formacao} alt="" />
+      </div>
+
     </div>
   );
 }
