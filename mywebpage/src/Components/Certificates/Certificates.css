@@ -123,17 +123,7 @@
   cursor: pointer;
 }
 
-  
-@media screen and (max-width: 1200px) {
-  .certificate-container {
-      margin-left: 20px;
-      margin-right: 20px;
-  }
-
-  .large {
-    transform: scale(2);
-  }
-
+@media screen and (max-width: 599px) {
   .modal-content {
     max-width: 95%;
   }
@@ -141,6 +131,35 @@
   .modal-content img {
     max-width: 100%;
   }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+  .modal-content {
+    max-width: 70%;
+  }
+
+  .modal-content img {
+    max-width: 80%;
+  }
+  
+  .certificate-container {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+  
+@media screen and (max-width: 1200px) {
+  .certificate-container {
+      margin-left: 20px;
+      margin-right: 20px;
+      padding-bottom: 50px;
+  }
+
+  
+  .carousel {
+    margin-top: 10px;
+  }  
 }
 
 @media screen and (min-width: 1600px) {

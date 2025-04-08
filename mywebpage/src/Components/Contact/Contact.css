@@ -1,43 +1,104 @@
 .contact-container {
-    margin-top: 30px;
-    padding-bottom: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
-}
-.contact-title{
-    font-family: Inter-Light;
-    font-size: 48px;
-    color: #0E3152;
+  margin-top: 30px;
+  padding-bottom: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
+.contact-title{
+  font-family: Inter-Light;
+  font-size: 48px;
+  color: #0E3152;
+}
 
 .contact-subcontainer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
+
 .contact-subcontainer-icon {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 60%;
-    margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 60%;
+  margin-top: 30px;
 }
 
 .contact-icon {
-    font-size: 60px;
+  font-size: 60px;
+  text-decoration: none;
+  color:  #ffffff ;
+  background-color: #0E3152;
+  padding: 15px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 599px) {
+  .contact-icon {
+    font-size: 50px;
     text-decoration: none;
-    color:  #ffffff ;
-    background-color: #0E3152;
-    padding: 15px;
-    width: 100px;
-    height: 100px;
+    color: #0E3152 ;
+    background-color: transparent;
+    padding: px;
+    width: auto;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
+  }
 
+  .contact-subcontainer-icon {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px)  {
+  .contact-icon {
+    font-size: 40px;
+    text-decoration: none;
+    color:  #ffffff ;
+    background-color: #0E3152;
+    padding: 15px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .contact-container {
+      margin-left: 20px;
+      margin-right: 20px;
+  }
+
+  .contact-subcontainer-icon {
+    width: 80%;
+    justify-content: space-evenly;
+  }
+}
+  
+@media screen and (min-width: 1600px) {
+  .contact-container {
+      margin-left: 300px;
+      margin-right: 300px;
+  }
 }

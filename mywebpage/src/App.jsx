@@ -19,7 +19,7 @@ function App() {
       <Experience />
       <Training />
       <Certificates />
-      {/* <Contact /> */}
+      <Contact />
     </div>
   )
 }
