@@ -19,11 +19,11 @@ function About() {
           </p>
         </div>
 
-        <img src={profile} alt="profile photo" />
+        <img className='about-image' src={profile} alt="profile photo" />
       </div>
 
       <div className="about-subcontainer-two">
-        <img src={programmer} alt="" />
+        <img className='about-image img-desktop ' src={programmer} alt="" />
         <p className="about-text">
           Minha jornada no universo do Front-End é guiada pela curiosidade
           constante e pela paixão em transformar ideias em experiências digitais
@@ -41,6 +41,7 @@ function About() {
           contribuindo para projetos que façam a diferença na vida das pessoas e
           agreguem valor real aos negócios.
         </p>
+        <img className='about-image img-mobile ' src={programmer} alt="" />
       </div>
 
       <div className="about-subcontainer-three">
@@ -57,7 +58,7 @@ function About() {
           o bem-estar, mas também alimentam minha criatividade para os desafios
           do desenvolvimento
         </p>
-        <img src={fisherman} alt="" />
+        <img className='about-image img-hobbie ' src={fisherman} alt="" />
       </div>
     </div>
   );

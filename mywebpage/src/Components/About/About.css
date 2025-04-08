@@ -1,8 +1,6 @@
 .about-container {
-    margin-top: -310px;
-    padding-bottom: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-top: -320px;
+    padding: 50px 100px;
     border-bottom: 2px solid #5C6047;
 }
 
@@ -42,12 +40,88 @@
     font-size: 20px;
     line-height: 30px;
     text-align: justify;
-    width: 800px;
+    width: 80%;
+}
+
+.img-desktop {
+    margin-right: 20px;
+}
+.img-hobbie {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+@media screen and (min-width: 1199px) {
+    .img-mobile {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1490px) {
+    .about-container {
+        margin-top: -360px;
+    }
+}
+@media screen and (min-width: 1600px) and (max-width: 2000px) {
+    .about-container {
+        margin-top: -15%;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    .about-container{
+        padding: 20px 20px 50px 20px;
+        margin-top: 0px;
+    }
+    .about-text {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .about-image {
+        width: 300px;
+        margin-top: 20px;
+    }
+
+    .img-hobbie {
+        margin-left: 0;
+    }
+
+    .about-subcontainer-one,  .about-subcontainer-three {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center
+    }
+
+    .about-subcontainer-two {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .img-mobile {
+        margin-bottom: 20px;
+    }
+
+    .about-title {
+        font-size: 38px;
+        margin-bottom: 10px;
+    }
+
+    .img-desktop {
+        display: none;
+        margin-left: 20px;
+    }
 }
 
 @media screen and (min-width: 1600px) {
     .about-container {
-        padding: 0 15%;
+        padding: 50px 400px;
     }
     
 }

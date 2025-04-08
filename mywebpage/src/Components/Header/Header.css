@@ -1,6 +1,5 @@
 .header-container {
     background-color: #0E3152;
-
     padding: 50px 100px;
 }
 
@@ -55,7 +54,7 @@
     }
 
     .header-text p {
-        font-size: 16px;
+        font-size: 20px;
         line-height: 24px;
     }
     .header-text {
