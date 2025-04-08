@@ -123,18 +123,33 @@
   cursor: pointer;
 }
 
-.fade {
-    animation: fadeIn 0.4s ease forwards;
-  }
   
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-      transform: scale(0.95);
-    }
-    to {
-      opacity: 1;
-      transform: scale(1);
-    }
+@media screen and (max-width: 1200px) {
+  .certificate-container {
+      margin-left: 20px;
+      margin-right: 20px;
   }
-  
+
+  .large {
+    transform: scale(2);
+  }
+
+  .modal-content {
+    max-width: 95%;
+  }
+
+  .modal-content img {
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .certificate-container {
+      margin-left: 300px;
+      margin-right: 300px;
+  }
+
+  .modal-content {
+    max-width: 40%;
+  }
+}
