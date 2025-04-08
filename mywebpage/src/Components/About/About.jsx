@@ -19,7 +19,7 @@ function About() {
           </p>
         </div>
 
-        <img className='about-image' src={profile} alt="profile photo" />
+        <img className='about-image img-profile' src={profile} alt="profile photo" />
       </div>
 
       <div className="about-subcontainer-two">

@@ -67,8 +67,8 @@ nav a:hover {
   }
 }
 
-@media screen and (min-width: 2000px) {
+@media screen and (min-width: 1600px) {
   .navigation-bar-container {
-    padding: 0 400px;
+    padding: 0 300px;
   }
 }

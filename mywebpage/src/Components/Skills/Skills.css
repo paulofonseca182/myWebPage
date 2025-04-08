@@ -18,8 +18,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
 }
+
 .skills {
     background-color: #5C604790;
     display: flex;
@@ -39,6 +39,32 @@
     font-family: Inter-ExtraLigh;
     font-size: 48px;
     color: #0E3152;
+}
+
+@media screen and (max-width: 1200px) {
+    .skills-container {
+        margin: 0 20px;
+    }
+
+    .skills-title {
+        margin-bottom: 30px;
+
+    }
+   
+    .skills-subcontainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
+@media screen and (min-width: 1600px) {
+    .skills-container {
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+
     
 }
 

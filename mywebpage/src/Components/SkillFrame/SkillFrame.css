@@ -5,8 +5,8 @@
     box-shadow: inset -7px -7px 7px 10px #5C604780;
     padding-top: 50px;
     padding-bottom: 50px;
+   
 }
-
 
 .skill-frame {
     padding: 0 50px;
@@ -34,6 +34,18 @@
     margin-top: 10px;
     text-align: justify;
 }
+
+@media screen and (max-width: 1200px) {
+
+  .skill-frame {
+    padding: 0 20px;
+}
+  .skillsFrame-container {
+    width: 100%;
+    margin-bottom: 30px;
+}
+}
+
 
 @keyframes lights {
     0% {
