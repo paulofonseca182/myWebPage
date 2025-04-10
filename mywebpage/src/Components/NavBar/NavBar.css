@@ -15,6 +15,7 @@
 
 .avatar {
   width: 90px;
+  cursor: pointer;
 }
 
 nav a {

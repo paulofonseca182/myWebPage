@@ -2,9 +2,16 @@ import React, { useState } from 'react';
 import './NavBar.css';
 import avatar from '../../assets/public/image/avatar.png';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import { useNavigate } from 'react-router-dom';
 
 function NavBar() {
   const [menuOpen, setMenuOpen] = useState(false);
+
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/');
+  }
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -35,7 +42,7 @@ function NavBar() {
 
       </div>
 
-      <img className="avatar" src={avatar} alt="" />
+      <img onClick={handleClick} className="avatar" src={avatar} alt="" />
 
       <nav className="navigation-bar">
         <a href="#about">Sobre</a>

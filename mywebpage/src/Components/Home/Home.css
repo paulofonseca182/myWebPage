@@ -1,0 +1,99 @@
+.container-profile {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #0E3152;
+}
+
+.subcontainer-profile {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+}
+  
+.half {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: clip-path 0.5s ease-in-out;
+  /* pointer-events: none; */
+}
+
+.left {
+  background-image: url('/src/assets/public/image/met1.png');
+  clip-path: inset(0 50% 0 0);
+  z-index: 1;
+}
+  
+.right {
+  background-image: url('/src/assets/public/image/met2.png');
+  clip-path: inset(0 0 0 50%);
+  z-index: 1;
+}
+  
+.left.active {
+  clip-path: inset(0 0 0 0);
+  z-index: 2;
+  cursor: pointer;
+}
+  
+.right.active {
+  clip-path: inset(0 0 0 0);
+  z-index: 2;
+  cursor: pointer;
+}
+
+
+/* Texto */
+.matrix-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2; 
+}
+  
+.matrix-text {
+  color: #ffffff;
+  font-size: 80px;
+  font-family: Inter-Thin;
+  position: relative;
+  z-index: 2; 
+  margin-bottom: -20px;
+}
+  
+.matrix-text::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  animation: glitch 3s infinite;
+  clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
+  transform: translate(-2px, -2px);
+  color: #ffffff94;
+}
+
+@keyframes glitch {
+  0%, 100% {
+    clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
+    transform: translate(0);
+  }
+  33% {
+    clip-path: polygon(0 0, 100% 0, 100% 15%, 0 15%);
+    transform: translate(-5px, -5px);
+  }
+  66% {
+    clip-path: polygon(0 85%, 100% 85%, 100% 100%, 0 100%);
+    transform: translate(5px, 5px);
+  }
+}
+  
