@@ -1,36 +1,21 @@
 .skillsFrame-container {
-    width: 48%;
-    background-color: #5C604740;
-    border-radius: 15px;
-    box-shadow: inset -7px -7px 7px 10px #5C604780;
-    padding-top: 50px;
-    padding-bottom: 50px;
-   
+    width: 40%;
+
 }
 
-.skill-frame {
-    padding: 0 50px;
-}
 
 .skill-title {
     font-family: Inter-Regular;
     font-size: 20px;
     color: #0E3152;
     margin-top: 30px;
-    background-color: #FFFFFF95;
-    border-radius: 6px;
-    padding-left: 10px;
-    box-shadow: inset -2px -2px 2px 1px #5C604780;
-    animation: lights 5s 750ms linear infinite;
-    
+    animation: lights 10s 750ms linear infinite;
 }
 
 .skill-text {
     font-family: Inter-Light;
-    font-size: 16px;
+    font-size: 20px;
     color: #0E3152;
-    margin-left: 20px;
-    margin-right: 20px;
     margin-top: 10px;
     text-align: justify;
 }
@@ -38,7 +23,7 @@
 @media screen and (max-width: 1200px) {
 
   .skill-frame {
-    padding: 0 20px;
+    padding: 0 0px;
 }
   .skillsFrame-container {
     width: 100%;
