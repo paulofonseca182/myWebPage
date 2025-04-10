@@ -1,16 +1,19 @@
 
 .training-container {
-    margin-top: 30px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     margin-left: 100px;
     margin-right: 100px;
-    border-bottom: 2px solid #5C6047;
+    
 }
 
 .training-title{
-    font-family: Inter-Light;
+    font-family: Inter-Regular;
     font-size: 48px;
     color: #0E3152;
+    border-bottom: 2px solid #5C6047;
+    margin-left: -100px;
+    padding-left: 100px;
+    width: 330px;
 }
 
 .training-data {
@@ -28,12 +31,12 @@
 
 .training-institution {
     font-family:  Inter-Medium;
-    font-size: 26px;
+    font-size: 20px;
     color: #0E3152;
 }
 
 .training-course {
-    font-family: Inter-Medium;
+    font-family: Inter-Light;
     font-size: 20px;
     color: #0E3152;
     margin-top: -8px;
@@ -69,7 +72,7 @@
     .training-container {
         margin-left: 20px;
         margin-right: 20px;
-        margin-top: 20px;
+
     }
     
     .training-institution{
@@ -88,6 +91,13 @@
         margin-top: 5px;
         font-size: 16px;
     }
+
+    .training-title{
+        margin-left: 0px;
+        padding-left: 0px;
+        width: 230px;
+        font-size: 36px;
+        margin-bottom: 20px;}
 }
 
 
@@ -101,4 +111,8 @@
         width: 25%;
     }
    
+    .training-title{
+        margin-bottom: 20px;
+    }
+    
 }
