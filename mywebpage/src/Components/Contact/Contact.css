@@ -1,13 +1,16 @@
 .contact-container {
   margin-top: 30px;
-  padding-bottom: 50px;
   margin-left: 100px;
   margin-right: 100px;
 }
 
 .contact-title{
-  font-family: Inter-Light;
+  font-family: Inter-Regular;
   font-size: 48px;
+  border-bottom: 2px solid #5C6047;
+  margin-left: -100px;
+  padding-left: 100px;
+  width: 290px;
   color: #0E3152;
 }
 
@@ -16,6 +19,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  padding: 30px 0 50px 0;
 }
 
 .contact-subcontainer-icon {
@@ -94,11 +98,23 @@
     width: 80%;
     justify-content: space-evenly;
   }
+
+  .contact-title {
+    margin-left: 0px;
+    padding-left: 0px;
+    width: 185px;
+    font-size: 36px;
+  }
 }
   
 @media screen and (min-width: 1600px) {
   .contact-container {
       margin-left: 300px;
       margin-right: 300px;
+  }
+
+  .contact-title {
+    margin-left: 0px;
+    padding-left: 0px;
   }
 }
