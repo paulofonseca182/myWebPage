@@ -1,25 +1,36 @@
 .header-container {
-    background-color: #0E3152;
+    background: linear-gradient(to right, #0E3152 40%, #1F6EB8 100%);
     padding: 50px 100px;
 }
 
 .header-name {
     color: #ffffff;
-    font-family: Inter-Thin;
+    font-family: Inter-Bold;
     font-size: 90px;
-    margin-left: -7px;
-    margin-bottom: -30px;
+    margin-bottom: -45px;
 }
 
 .header-profession {
     color: #ffffff;
-    font-family: Inter-Medium;
-    font-size: 48px;
+    font-family: Inter-ExtraLigh;
+    font-size: 54px;
+}
+
+.header-intro {
+    width: 50%;
+    margin-top: 10px;
+}
+
+.header-intro p {
+    color: #ffffff;
+    font-family: Inter-MediumItalic;
+    font-size: 20px;
+    line-height: 30px;
 }
 
 .header-text {
-    width: 585px;
-    margin-top: 50px;
+    width: 50%;
+    margin-top: 20px;
 }
 
 .header-text p {
@@ -27,7 +38,6 @@
     font-family: Inter-Thin;
     font-size: 20px;
     line-height: 30px;
-    text-align: justify;
 }
 
 @media screen and (max-width: 1200px) {
@@ -36,31 +46,45 @@
         padding: 50px 20px;
         display: flex;
         flex-direction: column;
-        align-items: center;
+
     }
 
     .header-name {
         color: #ffffff;
-        font-family: Inter-Thin;
+        font-family: Inter-Bold;
         font-size: 42px;
-        margin-left: -4px;
         line-height: 50px;
         margin-bottom: -5px;
     }
 
     .header-profession {
-        font-size: 22px;
+        font-size: 25px;
+    }
+
+    .header-intro {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .header-intro p {
+        font-size: 16px;
+        line-height: 24px;
 
     }
 
     .header-text p {
-        font-size: 20px;
+        font-size: 16px;
         line-height: 24px;
+
     }
+
     .header-text {
         width: 100%;
-        margin-top: 50px;
+        margin-top: 25px;
     }
+
+
+    
 }
 
 @media screen and (min-width: 1600px) {
