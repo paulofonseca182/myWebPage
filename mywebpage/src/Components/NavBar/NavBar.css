@@ -19,14 +19,14 @@
 }
 
 nav a {
-  color: #0E3152;
+  color: #001938;
   text-decoration: none;
   font-family: Inter-Regular;
   font-size: 24px;
 }
 
 nav a:hover {
-  color: #0E3152;
+  color: #001938;
 }
 
 
@@ -45,7 +45,7 @@ nav a:hover {
 
 .menu-icon {
   font-size: 30px;
-  color: #0E3152;
+  color: #001938;
   cursor: pointer;
 }
 

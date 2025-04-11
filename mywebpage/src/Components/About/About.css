@@ -30,7 +30,7 @@
 .about-title {
     font-family: Inter-Medium;
     font-size: 48px;
-    color: #0E3152;
+    color: #001938;
     margin-bottom: 30px;
     border-bottom: 2px solid #5C6047;
     width: 238px;
@@ -40,7 +40,7 @@
 }
 
 .about-text {
-    color: #0E3152;
+    color: #001938;
     font-family: Inter-Light;
     font-size: 20px;
     line-height: 30px;

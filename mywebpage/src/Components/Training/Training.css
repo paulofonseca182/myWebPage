@@ -9,7 +9,7 @@
 .training-title{
     font-family: Inter-Regular;
     font-size: 48px;
-    color: #0E3152;
+    color: #001938;
     border-bottom: 2px solid #5C6047;
     margin-left: -100px;
     padding-left: 100px;
@@ -32,20 +32,20 @@
 .training-institution {
     font-family:  Inter-Medium;
     font-size: 20px;
-    color: #0E3152;
+    color: #001938;
 }
 
 .training-course {
     font-family: Inter-Light;
     font-size: 20px;
-    color: #0E3152;
+    color: #001938;
     margin-top: -8px;
     
 }
 .training-period {
     font-family: Inter-ExtraLigh;
     font-size: 20px;
-    color: #0E3152;
+    color: #001938;
     margin-top: -8px;
 }
 

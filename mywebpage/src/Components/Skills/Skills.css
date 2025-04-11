@@ -7,7 +7,7 @@
 .skills-title {
     font-family: Inter-Medium;
     font-size: 48px;
-    color: #0E3152;
+    color: #001938;
     width: 375px;
     border-bottom: 2px solid #5C6047;
     padding-left: 100px;
@@ -32,13 +32,13 @@
 .skillsOne {
     font-family: Inter-Bold;
     font-size: 48px;
-    color: #0E3152;
+    color: #001938;
 }
 
 .skillsTwo {
     font-family: Inter-ExtraLigh;
     font-size: 48px;
-    color: #0E3152;
+    color: #001938;
 }
 
 @media screen and (max-width: 1200px) {

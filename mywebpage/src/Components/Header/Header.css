@@ -1,5 +1,5 @@
 .header-container {
-    background: linear-gradient(to right, #0E3152 40%, #1F6EB8 100%);
+    background: linear-gradient(to right, #001938 40%, #1F6EB8 100%);
     padding: 50px 100px;
 }
 
@@ -42,7 +42,7 @@
 
 @media screen and (max-width: 1200px) {
     .header-container {
-        background-color: #0E3152;
+        background-color: #001938;
         padding: 50px 20px;
         display: flex;
         flex-direction: column;

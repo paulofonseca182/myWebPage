@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./Home.css";
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 
 function Home() {
   const [activeSide, setActiveSide] = useState(null);
@@ -21,23 +21,14 @@ function Home() {
     setActiveSide(null);
   };
 
-const navigate = useNavigate()
+  const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate('/developer')
-  }
-
+    navigate("/developer");
+  };
 
   return (
     <div className="container-profile">
-
-        <div className="matrix-container">
-          <h1 className="matrix-text" data-text="PAULO FONSECA">
-            PAULO FONSECA
-          </h1>
-          <div className="rain"></div>
-
-      </div>
 
       <div
         className="subcontainer-profile"
@@ -45,12 +36,19 @@ const navigate = useNavigate()
         onMouseLeave={handleMouseLeave}
       >
         <div
-            onClick={handleClick}
+          onClick={handleClick}
           className={`half left ${activeSide === "left" ? "active" : ""}`}
         ></div>
         <div
           className={`half right ${activeSide === "right" ? "active" : ""}`}
         ></div>
+      </div>
+
+      <div className="matrix-container">
+        <h1 className="matrix-text" data-text="PAULO FONSECA">
+          PAULO FONSECA
+        </h1>
+        <div className="rain"></div>
       </div>
     </div>
   );

@@ -9,7 +9,7 @@
 .certificate-title {
   font-family: Inter-Regular;
   font-size: 48px;
-  color: #0E3152;
+  color: #001938;
   margin-bottom: 30px;
   border-bottom: 2px solid #5C6047;
   margin-left: -100px;
@@ -76,7 +76,7 @@
 /* Botões */
 .prev-btn,
 .next-btn {
-  color: #0E3152;
+  color: #001938;
   border: none;
   cursor: pointer;
   font-size: 50px;
