@@ -9,7 +9,7 @@ function Header() {
         <p className="header-profession">Desenvolvedor Front-End</p>
       </div>
 
-      <div className='header-intro'>
+      <div className="header-intro">
         <p>
           “Acredito que a colaboração e o aprendizado contínuo são a chave para
           o sucesso no desenvolvimento Front-End.”
@@ -18,7 +18,7 @@ function Header() {
 
       <div className="header-text">
         <p>
-          Um desenvolvedor apaixonado por tecnologia. Adoro
+          Sou Paulo Fonseca, um desenvolvedor apaixonado por tecnologia. Adoro
           trabalhar em equipe, compartilhar conhecimento e construir soluções
           que impactem positivamente a vida das pessoas.
         </p>

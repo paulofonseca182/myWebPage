@@ -11,37 +11,39 @@ function About() {
         <div>
           <p className="about-title">Sobre</p>
           <p className="about-text">
-            Olá! Sou Paulo Henrique, um Desenvolvedor Front-End apaixonado por
-            criar interfaces que combinam funcionalidade e design intuitivo. Com
-            33 anos e residente em Belo Horizonte, trago comigo uma bagagem de
-            experiências que me permitem abordar o desenvolvimento web com uma
-            perspectiva única.
+            Com 33 anos, natural de Dores do Indaiá - MG, moro atualmente em
+            Belo Horizonte - MG e carrego uma bagagem de experiências que me
+            permitem abordar o desenvolvimento web com uma perspectiva diferente
+            e singular.
           </p>
         </div>
 
-        <img className='about-image img-profile' src={profile} alt="profile photo" />
+        <img
+          className="about-image img-profile"
+          src={profile}
+          alt="profile photo"
+        />
       </div>
 
       <div className="about-subcontainer-two">
-        <img className='about-image img-desktop ' src={programmer} alt="" />
+        <img className="about-image img-desktop " src={programmer} alt="" />
         <p className="about-text">
           Minha jornada no universo do Front-End é guiada pela curiosidade
           constante e pela paixão em transformar ideias em experiências digitais
           impactantes. Desde que entrei nesse mundo, tenho me dedicado ao estudo
           contínuo das principais tecnologias do mercado, como React,
           TypeScript, JavaScript, HTML e CSS, com o objetivo de construir
-          interfaces modernas, funcionais e visualmente atrativas.
-          Busco sempre aplicar as melhores práticas de desenvolvimento, prezando
-          por um código limpo, escalável e acessível. 
-          Além do lado técnico, valorizo muito a colaboração em equipe,
-          metodologias ágeis e o aprendizado constante — afinal, a tecnologia
-          está em constante evolução, e o profissional que busca se destacar
-          precisa acompanhar esse ritmo.
-          Meu objetivo é seguir crescendo como desenvolvedor Front-End,
-          contribuindo para projetos que façam a diferença na vida das pessoas e
-          agreguem valor real aos negócios.
+          interfaces modernas, funcionais e visualmente atrativas. Busco sempre
+          aplicar as melhores práticas de desenvolvimento, prezando por um
+          código limpo, escalável e acessível. Além do lado técnico, valorizo
+          muito a colaboração em equipe, metodologias ágeis e o aprendizado
+          constante — afinal, a tecnologia está em constante evolução, e o
+          profissional que busca se destacar precisa acompanhar esse ritmo. Meu
+          objetivo é seguir crescendo como desenvolvedor Front-End, contribuindo
+          para projetos que façam a diferença na vida das pessoas e agreguem
+          valor real aos negócios.
         </p>
-        <img className='about-image img-mobile ' src={programmer} alt="" />
+        <img className="about-image img-mobile " src={programmer} alt="" />
       </div>
 
       <div className="about-subcontainer-three">
@@ -54,11 +56,11 @@ function About() {
           natureza, apreciando paisagens incríveis e recarregando as energias ao
           ar livre. Outra paixão que me acompanha é a pescaria, um momento de
           tranquilidade que me permite desacelerar, refletir e aproveitar o
-          silêncio das águas. Essas atividades não só me ajudam a manter o foco e
-          o bem-estar, mas também alimentam minha criatividade para os desafios
-          do desenvolvimento
+          silêncio das águas. Essas atividades não só me ajudam a manter o foco
+          e o bem-estar, mas também alimentam minha criatividade para os
+          desafios do desenvolvimento
         </p>
-        <img className='about-image img-hobbie ' src={fisherman} alt="" />
+        <img className="about-image img-hobbie " src={fisherman} alt="" />
       </div>
     </div>
   );

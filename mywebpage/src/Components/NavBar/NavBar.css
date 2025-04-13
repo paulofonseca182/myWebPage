@@ -18,29 +18,32 @@
   cursor: pointer;
 }
 
-nav a {
-  color: #001938;
-  text-decoration: none;
-  font-family: Inter-Regular;
-  font-size: 24px;
-}
-
-nav a:hover {
-  color: #001938;
-}
-
-
 .navigation-bar-mobile {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  background-color: #5C6047;
-  padding: 20px;
+  background-color: #e1e1e1;
+  padding: 10px 20px;
   z-index: 1000;
   position: absolute;
   border-radius: 7px;
-  box-shadow: inset 5px 5px 5px #d2d2d280;
+  box-shadow:  5px 5px 5px #000000;
+}
+
+.navigation-bar-mobile a {
+  color: #001938;
+  text-decoration: none;
+  font-family: Inter-Regular;
+  font-size: 24px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.navigation-bar-mobile a:hover {
+  background: linear-gradient(to right, #001938 40%, #1f6eb8 100%);
+  color: #ffffff;
+  border-radius: 5px;
 }
 
 .menu-icon {
