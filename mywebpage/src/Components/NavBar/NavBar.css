@@ -42,6 +42,7 @@
 
 .navigation-bar-mobile a:hover {
   background: linear-gradient(to right, #001938 40%, #1f6eb8 100%);
+  box-shadow:  5px 5px 5px #000000;
   color: #ffffff;
   border-radius: 5px;
 }

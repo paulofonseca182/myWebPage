@@ -13,6 +13,7 @@ function SkillFrame( { skills, children } ) {
             </div>
             ))}
         </div>
+        <p>teste</p>
     </div>
   )
 }
